@@ -19,7 +19,7 @@ while is_started:
     print('{} + {} = '.format(num_1, num_2) + str(num_1 + num_2))
   elif operation == "-":
     print('{} - {} = '.format(num_1, num_2) + str(num_1 - num_2))
-  elif operation == "x":
+  elif operation == "x" or operation == "*":
     print('{} x {} = '.format(num_1, num_2) + str(num_1 * num_2))
   elif operation == "/":
     print('{} / {} = '.format(num_1, num_2) + str(num_1 / num_2))
