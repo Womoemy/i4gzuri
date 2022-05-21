@@ -35,4 +35,5 @@ while is_started:
   if choice.upper() == "N":
     break # checking to see if this is the same thing as setting is_started = False
 
+# Exit the program
 print("Thank for using the Calculator. See you later!")
