@@ -1,0 +1,7 @@
+print("-------------------------------------------------------------------")
+print("This program counts and returns the number of words in a given text")
+print("-------------------------------------------------------------------")
+text = input("Enter a sentence: ")
+words = text.split()
+word_count = len(words)
+print("Your sentence contains " + str(word_count) + " word(s).")
