@@ -1,20 +1,23 @@
 # A python program that handles simple calculation
 
 operation = input('''
+SIMPLE CLI CALCULATOR
 ***********************************************
-WELCOME TO THE SIMPLE CLI CALCULATOR
-***********************************************
-Please choose an operation you want to perform:
-'+' - addition
-'-' - subtraction
-'x' - multiplication
-'/' - division
-'%' - modulus
+Choose an operation you want to perform:
+Pick any of these ['+', '-', 'x', '/', '%']
+
 ''')
 
 num_1 = int(input('First number: '))
 num_2 = int(input('Second number: '))
 
-# Addition
 if operation == "+":
-  print('{} + {} = '.format(num_1, num_2) + num_1 + num_2)
+  print('{} + {} = '.format(num_1, num_2) + str(num_1 + num_2))
+elif operation == "-":
+  print('{} - {} = '.format(num_1, num_2) + str(num_1 - num_2))
+elif operation == "x":
+  print('{} x {} = '.format(num_1, num_2) + str(num_1 * num_2))
+elif operation == "/":
+  print('{} / {} = '.format(num_1, num_2) + str(num_1 / num_2))
+else:
+  print('{} % {} = '.format(num_1, num_2) + str(num_1 % num_2))
