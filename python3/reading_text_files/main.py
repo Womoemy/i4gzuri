@@ -12,7 +12,7 @@ def read_file_content(filename):
 def count_words():
     # [assignment] Add your code here
     
-    # supplying file path and splitting file into words
+    # supply file path and split file into words
     text = read_file_content("python3/reading_text_files/story.txt")
     text = text.lower()
     words = text.split()
