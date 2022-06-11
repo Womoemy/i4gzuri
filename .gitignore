@@ -1,1 +1,4 @@
-django-apps/my_venv/
+my-venv/
+db.sqlite3
+__pycache__/
+*.pyc
