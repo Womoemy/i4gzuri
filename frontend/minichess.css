@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#board {
+  border: 5px solid black;
+  height: 500px;
+  width: 500px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  display: grid;
+  margin: 0 auto;
+}
+.boardsqs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boardsqs:nth-child(odd) {
+  background-color: #d58e50;
+}
+.boardsqs:nth-child(even) {
+  background-color: #ffce9e;
+}
+p {
+  font-size: 72px;
+}
