@@ -9,8 +9,10 @@ body {
 }
 a {
   color: white;
-  font-variant: small-caps;
+  font-family: sans-serif;
+  font-size: 16px;
   margin: 10px;
+  text-transform: uppercase;
 }
 #container {
   display: grid;
