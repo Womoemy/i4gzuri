@@ -1,1 +1,0 @@
-This contains the Django models and django url projects
