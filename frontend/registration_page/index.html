@@ -4,20 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Register</title>
 </head>
 <body>
   <main>
-    <div>
-      <h1>Learn to code by watching others</h1>
-      <p>
+    <div class="cta-header">
+      <h1 class="cta-h1">Learn to code by watching others</h1>
+      <p class="cta-p">
         See how experienced developers solve problems in real-time.
         Watching scripted tutorials is great, but understanding how developers think is invaluable.
       </p>
     </div>
-    <div>
-      <button>
-        <span>Try it free 7 days</span> then $20/mo, therafter
+    <div class="signup-form">
+      <button class="try-btn">
+        <span>Try it free 7 days</span> then $20/mo, thereafter 
       </button>
       <form action="">
         <input type="text" name="fname" id="fname" placeholder="First Name">
@@ -25,9 +26,15 @@
         <input type="email" name="email" id="email" placeholder="Email Address">
         <input type="password" name="pswd" id="pswd" placeholder="Password">
         <input type="submit" value="Claim your free trial">
-        <p>By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
+        <small class="t-and-c">By clicking the button, you are agreeing to our <a href="">Terms and Services</small>
       </form>
     </div>
   </main>
 </body>
 </html>
+<!-- Remaining:
+  1. Push mobile version styling
+  2. Style desktop version
+  3. Add box shadows
+  4. Add favicon
+-->
