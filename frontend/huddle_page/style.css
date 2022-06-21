@@ -17,12 +17,12 @@ body {
 }
 header {
   background-color: var(--pale-cyan);
-  padding: 1.4rem 1.2rem;
 }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1.4rem 1.2rem;
 }
 #logo {
   height: 1.4rem;
@@ -38,7 +38,7 @@ header {
 }
 .hero {
   background-image: url('./images/bg-hero-mobile.svg');
-  background-color: var(--pale-cyan);
+  background-size: contain;
   min-height: 100vh;
   width: 100vw;
   padding: 2rem;
@@ -53,6 +53,8 @@ header {
   height: 15em;
   width: 22em;
   display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .hero-title {
   font-family: 'Poppins', sans-serif;
@@ -62,7 +64,7 @@ header {
   font-family: 'Open Sans', sans-serif;
   width: 80%;
 }
-.cTa-btn {
+.cta-btn {
   background-color: var(--pink);
   border: none;
   border-radius: 25px;
@@ -70,4 +72,41 @@ header {
   color: var(--white);
   height: 50px;
   width: 70%;
+  font-size: 16px;
+  font-weight: 700;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.cta-info {
+  height: 500px;
+  width: 80%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px hsla(208, 11%, 55%, 0.3);
+  overflow: hidden;
+  padding: 2rem;
+}
+.cta-info > img {
+  height: 15rem;
+  width: 17rem;
+}
+.cta-heading {
+  font-family: 'Poppins', sans-serif;
+  color: var(--dark-cyan);
+}
+.cta-p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: var(--grayish-blue);
 }
