@@ -1,4 +1,4 @@
-## Zuri Django Projects
+## i4gzuri Django Projects
 
 This required README file is at the base of the Django project folder 
 and the .gitignore file is at the base of the parent repository.
