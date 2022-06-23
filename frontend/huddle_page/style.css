@@ -58,11 +58,12 @@ header {
 }
 .hero-title {
   font-family: 'Poppins', sans-serif;
-  width: 70%;
+  width: 20rem;
 }
 .hero-text {
   font-family: 'Open Sans', sans-serif;
-  width: 80%;
+  /* width: 80%; */
+  width: 340px;
 }
 .cta-btn {
   background-color: var(--pink);
