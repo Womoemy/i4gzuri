@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --pale-cyan: hsl(193, 100%, 96%);
+  --dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+  --white: hsl(0, 0%, 100%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 18px;
+}
+header {
+  background-color: var(--pale-cyan);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 1.2rem;
+}
+#logo {
+  height: 1.4rem;
+}
+#free-trial-btn {
+  background-color: var(--white);
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 2px 2px 0px hsla(192, 100%, 9%, 0.3);
+  color: var(--dark-cyan);
+  height: 2rem;
+  width: 8rem;
+}
+.hero {
+  background-image: url('./images/bg-hero-mobile.svg');
+  background-size: contain;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2.5em;
+}
+#huddle-img {
+  height: 15em;
+  width: 22em;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.hero-title {
+  font-family: 'Poppins', sans-serif;
+  width: 20rem;
+}
+.hero-text {
+  font-family: 'Open Sans', sans-serif;
+  /* width: 80%; */
+  width: 340px;
+}
+.cta-btn {
+  background-color: var(--pink);
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 2px 2px 0px hsla(192, 100%, 9%, 0.3);
+  color: var(--white);
+  height: 50px;
+  width: 70%;
+  font-size: 16px;
+  font-weight: 700;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.cta-info {
+  height: 500px;
+  width: 80%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px hsla(208, 11%, 55%, 0.3);
+  overflow: hidden;
+  padding: 2rem;
+}
+.cta-info > img {
+  height: 15rem;
+  width: 17rem;
+}
+.cta-heading {
+  font-family: 'Poppins', sans-serif;
+  color: var(--dark-cyan);
+}
+.cta-p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: var(--grayish-blue);
+}
