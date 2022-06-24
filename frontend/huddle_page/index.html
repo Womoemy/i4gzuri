@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Huddle - Build your community</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/29af45d88a.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -52,23 +53,25 @@
     </div>
     <div class="cta-card">
       <h3 class="cta-heading">Ready To Build Your Community?</h3>
-      <button  class="cta-btn">Get Started For Free</button>
+      <button class="cta-btn card-btn">Get Started For Free</button>
     </div>
   </main>
   <footer>
-    <img src="./images/footer-logo.svg" alt="footer logo">
-    <p>
+    <img id="footer-logo" src="./images/footer-logo.svg" alt="footer logo">
+    <p class="contact-details">
       <i><img src="./images/icon-location.svg" alt="location_icon"></i>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      <span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      </span>
     </p>
-    <p>
+    <p class="contact-details">
       <i><img src="./images/icon-phone.svg" alt="phone_icon"></i>
-      +1-543-123-4567
+      <span>+1-543-123-4567</span>
     </p>
-    <p>
+    <p class="contact-details">
       <i><img src="./images/icon-email.svg" alt="email_icon"></i>
-      example@fylo.com
+      <span>example@fylo.com</span>
     </p>
     <ul class="footer-links">
       <li>About Us</li>
@@ -80,21 +83,22 @@
     </ul>
     <div class="social-links">
       <!-- Use font awesome icons for the social links -->
-      <span>
+      <span class="icon-span">
         <!-- Facebook icon -->
-        <i></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <!-- <i class="fab fa-facebook-f"></i> -->
       </span>
-      <span>
+      <span class="icon-span">
         <!-- Twitter icon -->
-        <i></i>
+        <i class="fa-brands fa-twitter"></i>
       </span>
-      <span>
+      <span class="icon-span">
         <!-- Instagram icon -->
-        <i></i>
+        <i class="fa-brands fa-instagram"></i>
       </span>
     </div>
     <small>
-      <!-- Copyright unicode --> Copyright 2018 Huddle. All rights reserved.
+      &copy;Copyright 2018 Huddle. All rights reserved.
     </small>
   </footer>
 </body>
