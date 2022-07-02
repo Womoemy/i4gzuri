@@ -159,10 +159,6 @@ footer {
   height: 2rem;
   width: 10rem;
 }
-.contact-details {
-  display: flex;
-  column-gap: 30px;
-}
 .contact-details > * {
   border: 1px solid white;
 }
@@ -187,3 +183,4 @@ footer {
 .fa-brands {
   font-size: 20px;
 }
+/* End Footer section styles */

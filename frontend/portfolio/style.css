@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap');
+:root {
+  --navy: #0a192f;
+  --light-navy: #112240;
+  --lightest-navy: #233554;
+  --slate: #8892b0;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --green: #64ffda;
+  --mono-font: 'Roboto Mono', monospace;
+  --normal-font: 'Open Sans', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--navy);
+  color: var(--white);
+  font-family: var(--normal-font);
+}
+
+/* Navbar Section */
+.navbar {
+  align-items: center;
+  display: flex;
+  /* padding: 2rem 3rem; Style for desktop version */
+  padding: 1.5rem 2rem;
+  justify-content: space-between;
+  width: 100vw;
+}
+#logo {
+  color: var(--green);
+  font-family: var(--mono-font);
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+}
+.page-links {
+  display: flex;
+  font-family: 'Roboto', monospace;
+  list-style-type: none;
+}
+.page-links li {
+  color: var(--lightest-slate);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/* .page-links span {
+  color: var(--green);
+} */
+span {
+  color: var(--green);
+  font-family: 'Roboto', monospace;
+  font-weight: 400;
+}
+/* End Navbar section */
+
+/* Main section */
+main {
+  /* Style for desktop version
+  margin-left: 3rem;
+  margin-right: 3rem; 
+  padding: 2rem 3rem; 
+  */
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 2rem 1rem;
+}
+/* Hero/Showcase Section */
+.hero-section {
+  /* Style for desktop version
+  padding: 2rem 3rem; 
+  */
+  height: 80vh;
+}
+#hero-intro {
+  color: var(--slate);
+  font-family: var(--mono-font);
+  margin-bottom: 1.5rem;
+}
+#hero-name, #hero-title {
+  /* font-size: 72px; Style for desktop version */
+  font-size: 36px;
+}
+#hero-name {
+  color: var(--lightest-slate);
+}
+#hero-title, #hero-text {
+  color: var(--slate);
+}
+#hero-text {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  /* Style for desktop 
+  width: 60%; 
+  */
+}
+.btn {
+  background-color: var(--navy);
+  border: 1px solid var(--green);
+  border-radius: 5px;
+  color: var(--green);
+  cursor: pointer;
+  font-family: var(--mono-font);
+  font-size: 14px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+#connect-btn {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/* End Hero/Showcase Section */
+
+/* About Section */
+.about-section {
+  color: var(--light-slate);
+  display: flex;
+  flex-direction: column;
+  /* Style for desktop
+  flex-direction: row; 
+  */
+}
+.about-section h2 {
+  color: var(--lightest-slate);
+  margin-bottom: 2rem;
+}
+/* .about-section {
+  margin-bottom: 2rem;
+} */
+.about-section ul {
+  font-family: var(--mono-font);
+  list-style: none;
+  padding-left: 1em;
+}
+.about-section ul li::before {
+  content: "\25B7";
+  color: var(--green);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.about-img-div {
+  display: inline-block; /* Remove this line for desktop styling */
+  margin: 3rem auto; /* Remove this line for desktop styling */
+}
+.about-img {
+  height: 300px;
+  width: 300px;
+}
+/* End About section */
+/* End Main section */
+
+/* Footer Section */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  margin: 1rem 0;
+}
+.fa {
+  color: var(--light-slate);
+  font-size: 24px;
+}
+#copyrights {
+  width: fit-content;
+  margin: 1rem 0;
+}
+#copyrights a {
+  color: var(--light-slate);
+  font-family: var(--mono-font);
+  font-size: 14px;
+  text-decoration: none;
+}
+/* End footer section */
