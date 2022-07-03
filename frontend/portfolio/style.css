@@ -43,14 +43,12 @@ body {
   font-family: 'Roboto', monospace;
   list-style-type: none;
 }
-.page-links li {
+.page-links li a {
   color: var(--lightest-slate);
   margin-left: 1rem;
   margin-right: 1rem;
+  text-decoration: none;
 }
-/* .page-links span {
-  color: var(--green);
-} */
 span {
   color: var(--green);
   font-family: 'Roboto', monospace;
@@ -69,7 +67,7 @@ main {
   margin-right: 2rem;
   padding: 2rem 1rem;
 }
-/* Hero/Showcase Section */
+  /* Hero/Showcase Section */
 .hero-section {
   /* Style for desktop version
   padding: 2rem 3rem; 
@@ -82,8 +80,7 @@ main {
   margin-bottom: 1.5rem;
 }
 #hero-name, #hero-title {
-  /* font-size: 72px; Style for desktop version */
-  font-size: 36px;
+  font-size: 6vmax;
 }
 #hero-name {
   color: var(--lightest-slate);
@@ -111,12 +108,13 @@ main {
   text-decoration: none;
 }
 #connect-btn {
+  font-size: 16px;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-/* End Hero/Showcase Section */
+  /* End Hero/Showcase Section */
 
-/* About Section */
+  /* About Section */
 .about-section {
   color: var(--light-slate);
   display: flex;
@@ -153,7 +151,7 @@ main {
   height: 300px;
   width: 300px;
 }
-/* End About section */
+  /* End About section */
 /* End Main section */
 
 /* Footer Section */
@@ -183,3 +181,35 @@ footer {
   text-decoration: none;
 }
 /* End footer section */
+
+/* CONTACT ME PAGE STYLES */
+.title {
+  color: var(--lightest-slate);
+}
+.form-field {
+  background-color: var(--lightest-slate);
+  border: none;
+  color: var(--navy);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 3rem;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#message-area {
+  height: 10rem;
+  padding-top: 1rem;
+}
+#send-btn {
+  margin: 2rem 0;
+}
+  /* Desktop styles */
+@media screen and (min-width: 600px) {
+  .contact-section {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+/* END CONTACT ME PAGE STYLES */
