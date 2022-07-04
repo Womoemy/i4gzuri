@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - Womo Ebiobowei</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/29af45d88a.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -36,11 +38,17 @@
     </nav>
   </header>
   <main>
-    <section id="login-section">
+    <section class="login-section">
       <h2 class="title"><span>04.</span> Login</h2>
       <div class="form-div">
         <form action="" class="login-form">
-          
+          <label for="email">Email</label>
+          <input class="form-field" type="email" name="email" id="email">
+
+          <label for="pswd">Password</label>
+          <input class="form-field" type="password">
+
+          <button type="submit" class="btn" id="signin-btn">Sign In</button>
         </form>
       </div>
     </section>

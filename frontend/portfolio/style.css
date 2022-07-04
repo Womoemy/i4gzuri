@@ -215,9 +215,6 @@ footer {
 /* END CONTACT ME PAGE STYLES */
 
 /* REGISTER PAGE STYLES */
-/* #regform-div {
-  margin-top: 2rem;
-} */
 .form-div {
   margin-top: 2rem;
 }
@@ -316,5 +313,22 @@ footer {
 /* END REGISTER PAGE STYLES */
 
 /* LOGIN PAGE STYLES */
-
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-form label {
+  font-family: var(--mono-font);
+  font-size: 14px;
+  margin-bottom: -1rem;
+}
+#signin-btn {
+  margin: 2rem 0;
+}
+@media screen and (min-width: 600px) {
+  .login-section {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
 /* END LOGIN PAGE STYLES */
