@@ -5,46 +5,95 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register - Womo Ebiobowei</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/29af45d88a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <section id="register">
-    <div class="container">
-      <div class="title">
-        <h2>Register</h2>
-      </div>
-      <div class="row">
-        <form action="" method="post">
-          <label for="fname">First Name</label>
-          <input type="text" name="fname" id="fname">
+  <header>
+    <nav class="navbar">
+      <a id="logo" href="index.html">womoemy</a>
+      <div id="links-div">
+        <ul class="page-links">
+          <li>
+            <a href="index.html">
+              <span>01.</span> About
+            </a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <span>02.</span> Contact
+            </a>
+          </li>
+          <li>
+            <a href="register.html">
+              <span>03.</span> Register
+            </a>
+          </li>
+          <li>
+            <a href="login.html">
+              <span>04.</span> Login</li>
+            </a>   
+        </ul>
+      </div> 
+    </nav>
+  </header>
+  <main>
+    <section class="register-section">
+      <h2 class="title"><span>03.</span> Register</h2>
+      <div class="form-div" id="regform-div">
+        <form action="register.html" class="register-form">
+          <label class="reg-label" for="fname" id="fname-label">First Name</label>
+          <input class="form-field" type="text" name="fname" id="fname">
 
-          <label for="lname">Last Name</label>
-          <input type="text" name="lname" id="lname">
+          <label class="reg-label" for="lname" id="lname-label">Last Name</label>
+          <input class="form-field type="text" name="lname" id="lname">
           
-          <label for="phone">Phone</label>
-          <input type="tel" name="phone" id="phone">
+          <label class="reg-label" for="email" id="email-label">Email</label>
+          <input class="form-field" type="email" name="email" id="email">
 
-          <!-- Gender input item with dropdown, I've forgotten how to make a drop down -->
-          <label for="gender">Gender</label>
-          <select name="gender" id="gender">
+          <label class="reg-label" for="phone" id="phone-label">Phone</label>
+          <input class="form-field type="tel" name="phone" id="phone">
+
+          <label class="reg-label" for="gender" id="gender-label">Gender</label>
+          <select class="form-field name="gender" id="gender">
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select>
 
-          <label for="country">Country</label>
-          <input type="text" name="country" id="country">
+          <label class="reg-label" for="country" id="country-label">Country</label>
+          <input class="form-field type="text" name="country" id="country">
 
-          <label for="state">State</label>
-          <input type="text" name="state" id="state">
+          <label class="reg-label" for="state" id="state-label">State</label>
+          <input class="form-field type="text" name="state" id="state">
 
-          <label for="pwd">Password</label>
-          <input type="password" name="pwd" id="pwd">
+          <label class="reg-label" for="pswd" id="pswd-label">Password</label>
+          <input class="form-field type="password" name="pswd" id="pswd">
 
-          <label for="confirm_pwd">Confirm Password</label>
-          <input type="password" name="confirm_pwd" id="confirm_pwd">
+          <label class="reg-label" for="confirm_pswd" id="cpwsd-label">Confirm Password</label>
+          <input class="form-field type="password" name="confirm_pswd" id="confirm_pswd">
 
+          <button class="btn" id="reg-btn">Register</button>
         </form>
       </div>
     </div>
-  </section>
+  </main>
+  <footer>
+    <div class="social-links">
+      <a href="" target="_blank">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="" target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </div>
+    <p id="copyrights">
+      <a href="https://github.com/bchiang7/v4">
+        Design by Brittany Chiang
+      </a>
+    </p>
+  </footer>
 </body>
 </html>

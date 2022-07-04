@@ -213,3 +213,108 @@ footer {
   }
 }
 /* END CONTACT ME PAGE STYLES */
+
+/* REGISTER PAGE STYLES */
+/* #regform-div {
+  margin-top: 2rem;
+} */
+.form-div {
+  margin-top: 2rem;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+.reg-label {
+  font-family: var(--mono-font);
+  font-size: 14px;
+  margin-bottom: -1rem;
+}
+/* Desktop styles */
+@media screen and (min-width: 600px) {
+  .register-section {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "fn-lbl ln-lbl" 
+      "fname lname"
+      "email-lbl email-lbl"
+      "email email"
+      "phone-lbl gender-lbl"
+      "phone gender"
+      "country-lbl state-lbl"
+      "country state"
+      "pswd-lbl cpswd-lbl"
+      "pswd confirm-pswd"
+      "reg-btn reg-btn";
+    column-gap: 10px;
+  }
+  #fname-label {
+    grid-area: fn-lbl;
+  }
+  #fname {
+    grid-area: fname;
+  }
+  #lname-label {
+    grid-area: ln-lbl;
+  }
+  #lname {
+    grid-area: lname;
+  }
+  #email-label {
+    grid-area: email-lbl;
+  }
+  #email {
+    grid-area: email;
+  }
+  #phone-label {
+    grid-area: phone-lbl;
+  }
+  #phone {
+    grid-area: phone;
+  }
+  #gender-label {
+    grid-area: gender-lbl;
+  }
+  #gender {
+    grid-area: gender;
+  }
+  #country-label {
+    grid-area: country-lbl;
+  }
+  #country {
+    grid-area: country;
+  }
+  #state-label {
+    grid-area: state-lbl;
+  }
+  #state {
+    grid-area: state;
+  }
+  #pswd-label {
+    grid-area: pswd-lbl;
+  }
+  #pswd {
+    grid-area: pswd;
+  }
+  #cpswd-label {
+    grid-area: cpswd-lbl;
+  }
+  #confirm_pswd {
+    grid-area: confirm-pswd;
+  }
+  #reg-btn {
+    grid-area: reg-btn;
+    margin: 20px 0;
+  }
+}
+/* END REGISTER PAGE STYLES */
+
+/* LOGIN PAGE STYLES */
+
+/* END LOGIN PAGE STYLES */
