@@ -156,12 +156,13 @@ footer {
   border: 1px solid white;
 } */
 #footer-logo {
-  height: 2rem;
-  width: 10rem;
+  height: 4rem;
+  width: 12.5rem;
+  margin: 1rem 0;
 }
-.contact-details > * {
+/* .contact-details > * {
   border: 1px solid white;
-}
+} */
 .social-links {
   display: flex;
   justify-content: space-evenly;
@@ -182,5 +183,13 @@ footer {
 }
 .fa-brands {
   font-size: 20px;
+}
+.contact-details {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin: 1rem 0;
+}
+.copyrights {
+  margin: 0 auto;
 }
 /* End Footer section styles */
