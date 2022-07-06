@@ -69,7 +69,6 @@ header {
 }
 .hero-text {
   font-family: 'Open Sans', sans-serif;
-  /* width: 80%; */
   width: 340px;
 }
 .cta-btn {
@@ -133,8 +132,7 @@ main {
   row-gap: 2rem;
   align-items: center;
   position: relative;
-  top: 150px;
-  
+  top: 150px; 
   background-color: var(--white)
 }
 .card-btn {
@@ -152,23 +150,15 @@ footer {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-/* footer > * {
-  border: 1px solid white;
-} */
 #footer-logo {
   height: 4rem;
   width: 12.5rem;
   margin: 1rem 0;
 }
-/* .contact-details > * {
-  border: 1px solid white;
-} */
-.social-links {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 15px;
-  width: 40%;
-  margin: 2rem auto;
+.contact-details {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin: 1rem 0;
 }
 .footer-links {
   list-style: none;
@@ -176,6 +166,13 @@ footer {
 }
 .footer-links li {
   margin: 1rem 0;
+}
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  width: 40%;
+  margin: 2rem auto;
 }
 .icon-span {
   border: 1px solid var(--white);
@@ -188,11 +185,6 @@ footer {
 }
 .fa-brands {
   font-size: 22px;
-}
-.contact-details {
-  display: grid;
-  grid-template-columns: 10% 90%;
-  margin: 1rem 0;
 }
 .copyrights {
   margin: 0 auto;
