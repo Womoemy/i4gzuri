@@ -166,11 +166,16 @@ footer {
 .social-links {
   display: flex;
   justify-content: space-evenly;
+  gap: 15px;
   width: 40%;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 .footer-links {
   list-style: none;
+  margin: 1.5rem 0;
+}
+.footer-links li {
+  margin: 1rem 0;
 }
 .icon-span {
   border: 1px solid var(--white);
@@ -182,7 +187,7 @@ footer {
   width: 40px;
 }
 .fa-brands {
-  font-size: 20px;
+  font-size: 22px;
 }
 .contact-details {
   display: grid;
